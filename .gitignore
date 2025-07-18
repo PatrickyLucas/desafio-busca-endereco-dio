@@ -1,33 +1,52 @@
-HELP.md
+# ----------------------
+# Java & Spring Boot
+# ----------------------
+
+# Compiled files
+*.class
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Dependency directories
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Maven specific
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
 
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IDEs
+.idea/
 *.iml
+*.iws
 *.ipr
+out/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
 .vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+*.env
+
+# Test reports and coverage
+surefire-reports/
+jacoco.exec
+coverage/
+
+# H2 database files (optional, if not using in-memory)
+*.mv.db
+*.h2.db
