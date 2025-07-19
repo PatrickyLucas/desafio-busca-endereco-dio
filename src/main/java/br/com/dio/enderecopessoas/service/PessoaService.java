@@ -7,9 +7,16 @@ import br.com.dio.enderecopessoas.model.Pessoa;
 import br.com.dio.enderecopessoas.repository.PessoaRepository;
 import br.com.dio.enderecopessoas.service.strategy.EnderecoService;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 
+/**
+ * Serviço responsável por gerenciar as operações relacionadas a pessoas.
+ * Inclui métodos para salvar uma nova pessoa e listar todas as pessoas cadastradas.
+ * Utiliza o repositório PessoaRepository para interagir com o banco de dados
+ * e o EnderecoService para buscar informações de endereço.
+ *
+ * @author Patricky Lucas
+ */
 @Service
 public class PessoaService {
 

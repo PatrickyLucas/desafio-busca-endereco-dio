@@ -9,6 +9,13 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/**
+ * Controlador REST para gerenciar operações relacionadas a pessoas.
+ * Este controlador expõe endpoints para criar uma nova pessoa e listar todas as pessoas cadastradas.
+ * Utiliza o serviço PessoaService para realizar as operações de negócio.
+ *
+ * @author Patricky Lucas
+ */
 @RestController
 @RequestMapping("/pessoas")
 public class PessoaController {
